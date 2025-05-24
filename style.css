@@ -1,0 +1,125 @@
+    /* ========== ESTILOS GENERALES ========== */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* ========== BARRA DE NAVEGACIÓN ========== */
+    nav {
+      background-color: #222;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* ========== TÍTULO PRINCIPAL ========== */
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      color: #2c3e50;
+    }
+
+    /* ========== SECCIÓN "ABOUT ME" ========== */
+    #about {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Imagen debajo de la sección "ABOUT ME" */
+    #about + img {
+      display: block;
+      max-width: 200px;
+      margin: 10px auto;
+      border-radius: 10%;
+    }
+
+    /* ========== SECCIÓN "PROJECTS" ========== */
+    #Project {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Imagen del proyecto */
+    #Project + img {
+      display: block;
+      max-width: 200px;
+      margin: 10px auto;
+      border-radius: 10%;
+    }
+
+    /* ========== TABLA DE PROYECTOS ========== */
+    table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* ========== FORMULARIO DE CONTACTO ========== */
+    #form {
+      width: 90%;
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    #form input[type="text"],
+    #form input[type="email"],
+    #form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #form input[type="submit"] {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #form input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+
+    /* ========== ENLACE A GITHUB ========== */
+    a[target="_blank"] {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #3498db;
+    }
