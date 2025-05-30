@@ -82,6 +82,7 @@
     table img {
       width: 200px;
       height: auto;
+      transform: rotate(30deg);
       transition: 9s;
     }
 
